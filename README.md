@@ -160,50 +160,6 @@ Place them inside the project directory and update their paths in the Python con
 python download.py
 ```
 
----
-
-## Folder Structure
-
-```
-GestoVox/
-│
-├── frontend/
-├── backend/
-├── images/
-├── docs/
-├── videos/
-├── requirements.txt
-├── README.md
-└── LICENSE
-```
-
----
-
-## Screenshots
-
-### Main Interface
-
-> Add Screenshot
-
----
-
-### Gesture Detection
-
-> Add Screenshot
-
----
-
-### Caption Overlay
-
-> Add Screenshot
-
----
-
-### Virtual Mouse
-
-> Add Screenshot
-
----
 
 ## Future Enhancements
 
@@ -235,11 +191,6 @@ Please open an Issue before submitting major changes.
 
 ---
 
-## License
-
-This project is licensed under the MIT License.
-
----
 
 ## Author
 
