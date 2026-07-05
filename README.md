@@ -195,6 +195,7 @@ Please open an Issue before submitting major changes.
 ## Author
 
 **Siddharth Thakare**
+
 **Pawan Badgujar**
 
 M.Sc. Electronics Student
