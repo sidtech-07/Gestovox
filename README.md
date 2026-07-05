@@ -167,13 +167,12 @@ python download.py
 ```
 GestoVox/
 │
-├── src/
-├── models/
+├── frontend/
+├── backend/
 ├── images/
 ├── docs/
 ├── videos/
 ├── requirements.txt
-├── download.py
 ├── README.md
 └── LICENSE
 ```
