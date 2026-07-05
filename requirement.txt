@@ -1,0 +1,9 @@
+opencv-python
+mediapipe
+pyautogui
+sounddevice
+vosk
+flask
+flask-cors
+PyQt5
+numpy
