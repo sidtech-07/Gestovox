@@ -1,1 +1,116 @@
-b
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GestVox Pro | About Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="gradient-bg"></div>
+    
+
+    <header class="main-header">
+        <div class="container">
+            <h1 class="logo">GestVox<span>Pro</span></h1>
+            <nav class="main-nav">
+                <a href="about.html">About Us</a>
+                <a href="dashboard.html">Dashboard</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <section class="dashboard-header">
+        <h1>Welcome, <span id="userDisplay"></span></h1>
+        <p class="subtext">Know about our Software deeply..</p>
+    </section>
+    <section class="about-section">
+        <div class="about-container">
+            <h1 class="gradient-text">About GestureControl Pro</h1>
+            <p class="subtext">Redefining Human-Computer Interaction Through Intuitive Controls</p>
+
+            <div class="content-card">
+                <h2><i class="fas fa-hand-pointer"></i> What We Do</h2>
+                <p>GestureControl Pro transforms how you interact with technology by replacing traditional input methods with natural hand gestures and voice commands. Our advanced system uses computer vision is to create a seamless bridge between human movement and digital response.</p>
+            </div>
+
+            <div class="feature-grid">
+                <div class="feature-card gradient-card">
+                    <i class="fas fa-video"></i>
+                    <h3>Real-Time Tracking</h3>
+                    <p>30 FPS motion capture using standard webcams</p>
+                </div>
+                <div class="feature-card gradient-card">
+                    <i class="fas fa-brain"></i>
+                    <h3>Smart presentation</h3>
+                    <p>Ineracted presentation with smart geastures and voice controll</p>
+                </div>
+                <div class="feature-card gradient-card">
+                    <i class="fas fa-language"></i>
+                    <h3>Voice Integration</h3>
+                    <p>Supports multiple languages with 60% accuracy</p>
+                </div>
+            </div>
+
+            <div class="content-card">
+                <h2><i class="fas fa-cogs"></i> How It Works</h2>
+                <ol class="process-steps">
+                    <li>
+                        <strong>Motion Capture:</strong> Webcam tracks hand movements
+                        <span class="detail">(Uses MediaPipe Hand Landmark model)</span>
+                    </li>
+                    <li>
+                        <strong>Gesture Recognition:</strong> CNN classifies gestures
+                        <span class="detail">(Custom-trained neural network)</span>
+                    </li>
+                    <li>
+                        <strong>Command Execution:</strong> Translates to OS-level actions
+                        <span class="detail">(Virtual mouse/keyboard emulation)</span>
+                    </li>
+                </ol>
+            </div>
+
+            <div class="content-card">
+                <h2><i class="fas fa-users"></i> Who Uses It</h2>
+                <div class="use-cases">
+                    <div class="case-card">
+                        <i class="fas fa-gamepad"></i>
+                        <h4>Gamers</h4>
+                        <p>Immersive VR/AR control schemes</p>
+                    </div>
+                    <div class="case-card">
+                        <i class="fas fa-wheelchair"></i>
+                        <h4>Accessibility</h4>
+                        <p>Hands-free computer operation</p>
+                    </div>
+                    <div class="case-card">
+                        <i class="fas fa-briefcase"></i>
+                        <h4>Professionals</h4>
+                        <p>Presentation control & multitasking</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cta-box">
+                <a href="dashboard.html" class="launch-btn">
+                    <span class="gradient-text">Start Controlling</span>
+                    <i class="fas fa-rocket"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2025 GestureControl Pro. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://github.com/sidtech-07"><i class="fab fa-github"></i> sidtech-07</a>
+                <a href="https://www.linkedin.com/in/pawan-badgujar-03216134b"><i class="fab fa-linkedin"></i> Pawan Badgujar</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
